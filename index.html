@@ -53,7 +53,7 @@
         </li>
 
         <li
-          class="grid grid-cols-1 place-items-center gap-x-7 gap-y-12 px-12 sm:grid-cols-3"
+          class="grid grid-cols-1 place-items-center gap-x-7 gap-y-12 px-12 sm:grid-cols-3 md:grid-cols-2"
         >
           <img
             class="h-10"
@@ -113,7 +113,7 @@
       />
 
       <article
-        class="mx-8 my-12 h-32 w-4/5 rounded-lg bg-gray-300/90 px-4 py-1 text-black"
+        class="mx-8 my-12 h-32 w-4/5 rounded-lg bg-gray-300/90 px-4 py-1 text-black md:mx-auto"
       >
         <div
           class="flex flex-row items-center gap-2 font-medium tracking-tighter"
@@ -135,7 +135,7 @@
       </article>
 
       <article
-        class="mx-8 h-32 w-4/5 rounded-lg bg-gray-300/90 px-4 py-1 text-black"
+        class="mx-8 h-32 w-4/5 rounded-lg bg-gray-300/90 px-4 py-1 text-black md:mx-auto"
       >
         <div
           class="flex flex-row items-center gap-2 font-medium tracking-tighter"
@@ -164,15 +164,17 @@
         Our Services
       </button>
 
-      <div class="h-fit">
+      <div class="h-fit  md:relative md:mb-16 md:h-[17rem]">
         <img
-          class="h-full bg-cover"
+          class="h-full bg-cover md:absolute md:-translate-y-1/4 md:translate-x-1/4 md:h-[36rem]"
           src="https://i.imgur.com/vbwfyfv.png"
           alt=""
         />
       </div>
 
-      <div class="flex h-fit flex-col items-center gap-5 px-6 py-4">
+      <div
+        class="flex h-fit flex-col items-center gap-5 px-6 py-4 md:grid md:grid-cols-2 md:w-2/3 md:mx-auto"
+      >
         <article class="h-80 w-48 rounded-2xl bg-[#1B1C25] text-sm">
           <ul class="flex h-full flex-col items-center justify-between p-8">
             <li class="">
@@ -259,7 +261,9 @@
           </ul>
         </article>
 
-        <article class="h-80 w-48 rounded-2xl bg-[#1B1C25] text-sm">
+        <article
+          class="h-80 w-48 rounded-2xl bg-[#1B1C25] text-sm md:col-span-2 md:mx-auto"
+        >
           <ul class="flex h-full flex-col items-center justify-between p-8">
             <li class="">
               <svg
@@ -311,9 +315,11 @@
         Here's what our clients has shared with us
       </p>
 
-      <div class="flex flex-col gap-5 px-2 py-4">
+      <div
+        class="flex w-64 flex-col gap-5 px-2 py-4 md:grid md:w-full md:grid-cols-2"
+      >
         <article
-          class="flex h-96 w-64 flex-col gap-5 rounded-3xl border-sky-400 bg-[#1E1E1E] px-8 py-4"
+          class="flex h-96 flex-col gap-5 rounded-3xl border-sky-400 bg-[#1E1E1E] px-8 py-4"
         >
           <img
             class="h-14 w-14"
@@ -340,7 +346,7 @@
         </article>
 
         <article
-          class="flex h-96 w-64 flex-col gap-5 rounded-3xl border-sky-400 bg-[#1B1C25] px-8 py-4"
+          class="flex h-96 flex-col gap-5 rounded-3xl border-sky-400 bg-[#1B1C25] px-8 py-4"
         >
           <img
             class="h-14 w-14"
@@ -367,7 +373,7 @@
         </article>
 
         <article
-          class="flex h-96 w-64 flex-col gap-5 rounded-3xl border-sky-400 bg-[#1B1C25] px-8 py-4"
+          class="mx-auto flex h-96 flex-col gap-5 rounded-3xl border-sky-400 bg-[#1B1C25] px-8 py-4 md:col-span-2 md:w-2/4"
         >
           <img
             class="h-14 w-14"
@@ -429,10 +435,10 @@
       </section>
 
       <section
-        class="relative mx-auto h-40 rounded-lg bg-[#1B1A17] px-3 py-4 text-xs"
+        class="relative mx-auto h-40 md:h-28 md:w-96 rounded-lg bg-[#1B1A17] px-3 py-4 text-xs"
       >
         <button
-          class="flex w-full flex-row justify-between gap-2 relative z-30"
+          class="relative z-30 flex w-full flex-row justify-between gap-2"
         >
           <p>How can Nakson help me scale business?</p>
           <span>
@@ -485,10 +491,10 @@
       </section>
 
       <section
-        class="relative mx-auto h-40 rounded-lg bg-[#1B1A17] px-3 py-4 text-xs"
+        class="relative mx-auto h-40 md:h-28 md:w-96 rounded-lg bg-[#1B1A17] px-3 py-4 text-xs"
       >
         <button
-          class="flex w-full flex-row justify-between gap-2 relative z-30"
+          class="relative z-30 flex w-full flex-row justify-between gap-2"
         >
           <p>Ag lava majboori nu ?</p>
           <span>
