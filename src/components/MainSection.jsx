@@ -40,12 +40,12 @@ const MainSection = () => {
 
         <li className="grid grid-cols-1 place-items-center gap-y-12 px-16 sm:grid-cols-2 md:hidden md:grid-cols-2">
           <img
-            className="h-10"
+            className="h-10 opacity-75 contrast-0"
             src="https://deepsealifesciences.com/cdn/shop/files/logo.png?v=1673523538&width=500"
             alt=""
           />
           <img
-            className="mr-6 h-20"
+            className="mr-6 h-20 opacity-75 contrast-0"
             src="https://momdaughts.com/cdn/shop/files/shapater_logo.png?v=1666980932&width=500"
             alt=""
           />
