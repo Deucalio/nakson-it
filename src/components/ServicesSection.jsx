@@ -114,7 +114,7 @@ const ServicesSection = () => {
             </article>
           </SwiperSlide>
           <SwiperSlide>
-            {/* <article className="w-full h-full rounded-2xl bg-[#1B1C25] text-sm md:col-span-2 md:mx-auto  lg:col-span-1">
+            <article className="w-full h-full rounded-2xl bg-[#1B1C25] text-sm md:col-span-2 md:mx-auto  lg:col-span-1">
               <ul className="flex h-full flex-col items-center justify-between p-8">
                 <li className="">
                   <svg
@@ -153,7 +153,7 @@ const ServicesSection = () => {
                   </button>
                 </li>
               </ul>
-            </article> */}
+            </article>
           </SwiperSlide>
           <SwiperSlide>
             <article className="w-full h-full rounded-2xl bg-[#1B1C25] text-sm md:col-span-2 md:mx-auto  lg:col-span-1">
@@ -197,11 +197,48 @@ const ServicesSection = () => {
               </ul>
             </article>
           </SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
-          {/* <SwiperSlide>Slide 6</SwiperSlide>
-          <SwiperSlide>Slide 7</SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide> */}
+          <SwiperSlide>
+            <article className="w-full h-full rounded-2xl bg-[#1B1C25] text-sm md:col-span-2 md:mx-auto  lg:col-span-1">
+              <ul className="flex h-full flex-col items-center justify-between p-8">
+                <li className="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-6 w-6 text-slate-300 opacity-70"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59"
+                    />
+                  </svg>
+                </li>
+                <li className="text-center leading-5">Graphics Designing</li>
+                <li>
+                  <button className="flex w-40 flex-row items-center gap-1 rounded-xl bg-gradient-to-l from-indigo-400 to-purple-800 px-7 py-3 transition-all hover:scale-105">
+                    Get Started
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="h-3 w-3"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+            </article>
+          </SwiperSlide>
         </Swiper>
       </div>
     </section>
