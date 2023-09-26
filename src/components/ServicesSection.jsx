@@ -15,7 +15,7 @@ const ServicesSection = () => {
   return (
     <section className="py-16 md:py-36">
       <button className="mx-auto block rounded-2xl bg-rose-600 px-3 py-2 text-slate-100 transition-all hover:scale-105 hover:bg-rose-700 hover:text-slate-200">
-        Our Services
+        Select a Service
       </button>
 
       <div
