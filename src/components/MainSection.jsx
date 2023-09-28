@@ -8,7 +8,7 @@ const MainSection = () => {
           <img className="" src="https://i.imgur.com/ZMQgJna.png" alt="" />
         </li>
 
-        <li className="px-4 text-2xl uppercase md:py-10 lg:py-16 lg:text-5xl lg:leading-snug xl:py-32">
+        <li className="px-4 text-3xl uppercase md:py-10 lg:py-16 lg:text-5xl lg:leading-snug xl:py-32">
           your&nbsp;
           <span className="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text font-bold tracking-wider text-transparent">
             partner&nbsp;
