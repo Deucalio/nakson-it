@@ -5,10 +5,10 @@ const MainSection = () => {
     <main className="h-fit">
       <ul className="md:grid md:grid-cols-2">
         <li className="md:hidden">
-          <img className="" src="https://i.imgur.com/ZMQgJna.png" alt="" />
+          <img className="sm:h-96 sm:mx-auto" src="https://i.imgur.com/ZMQgJna.png" alt="" />
         </li>
 
-        <li className="px-4 text-3xl uppercase md:py-10 lg:py-16 lg:text-5xl lg:leading-snug xl:py-32">
+        <li className="px-4 sm:pl-36 sm:pr-16 text-3xl uppercase md:py-10 lg:py-16 lg:text-5xl lg:leading-snug xl:py-32">
           your&nbsp;
           <span className="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text font-bold tracking-wider text-transparent">
             partner&nbsp;
