@@ -4,5 +4,14 @@ body {
   height: 100%;
 }
 
+#client2 {
+  width: 100% !important;
+}
 
+.swiper-slide {
+  width: 240px !important;
+}
 
+.swiper-slide-prev {
+  width: 240px !important;
+}
