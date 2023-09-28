@@ -51,7 +51,7 @@ const Nav = () => {
             ref={navRef}
             className="opacity-0 max-h-0
             transition-all ease-in duration-300 absolute top-2/3 flex -left-[0.6rem]
-             w-24 flex-col gap-4 rounded-md bg-[#100303] ring-1 ring-slate-500 
+             w-24 flex-col gap-4 rounded-md bg-[#0F0E0E] ring-1 ring-slate-500 
              px-3 py-2 text-xs"
           >
             <p className="transition-all hover:text-sm">Services</p>
