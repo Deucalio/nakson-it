@@ -18,8 +18,8 @@ const Clients = () => {
       </p>
 
       <div
-        className=" border-sky-400 mx-auto flex w-96 flex-col gap-5 px-2 py-4 md:grid md:w-full md:grid-cols-2 lg:grid-col
-       h-96 w-[30rem] border-2 sm:border-2"
+        className=" mx-auto flex w-96 flex-col gap-5 px-2 py-4 md:grid md:w-full md:grid-cols-2 lg:grid-col
+       h-96 w-[30rem]"
       >
         <Swiper
           slidesPerView={2}
