@@ -10,9 +10,9 @@ const Nav = () => {
           alt=""
         />
         <li className="relative -left-8 ml-auto flex w-fit cursor-pointer flex-col gap-3 px-12 py-6 pb-8 leading-3 md:hidden">
-          <p className="w-10 border-b-[1px]"></p>
-          <p className="w-10 border-b-[1px]"></p>
-          <p className="w-10 border-b-[1px]"></p>
+          <p className="w-10 border-b-[1px] border-white"></p>
+          <p className="w-10 border-b-[1px] border-white"></p>
+          <p className="w-10 border-b-[1px] border-white"></p>
 
           <div className="absolute top-2/3 flex hidden h-40 w-24 flex-col gap-4 rounded-xl bg-slate-800 px-3 py-2 text-xs">
             <p className="transition-all hover:text-sm">Services</p>
