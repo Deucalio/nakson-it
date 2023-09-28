@@ -7,28 +7,11 @@ body {
   height: 100%;
 }
 
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
 html,
 body {
   position: relative;
   height: 100%;
+  overflow-x: hidden;
 }
 
 #app {
@@ -49,14 +32,18 @@ body {
   border-radius: 18px;
   font-size: 22px;
   font-weight: bold;
-  color: #fff;
 }
 
-.swiper-slide:nth-child(1n) {
-  background-color: rgb(206, 17, 17);
-}
 
-.swiper-slide:nth-child(2n) {
+/* 
+.swiper-pagination{
+  display: none;
+} */
+/* .swiper-slide:nth-child(1n) {
+  background-color: rgb(218, 161, 161);
+} */
+
+/* .swiper-slide:nth-child(2n) {
   background-color: rgb(0, 140, 255);
 }
 
@@ -90,4 +77,4 @@ body {
 
 .swiper-slide:nth-child(10n) {
   background-color: rgb(54, 94, 77);
-}
+} */
