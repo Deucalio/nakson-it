@@ -149,7 +149,7 @@ const Clients = () => {
             </article>
           </SwiperSlide>
           <SwiperSlide>
-          <article className="w-60 flex h-full flex-col gap-5 rounded-3xl border-sky-400 bg-[#1E1E1E] px-8 py-4">
+          <article className="opacity-0 w-60 sm:border-2 flex h-full flex-col gap-5 rounded-3xl border-sky-400 bg-[#1E1E1E] px-8 py-4">
               <img
                 className="h-14 w-14"
                 src="https://img.icons8.com/3d-fluency/94/quote-left.png"
