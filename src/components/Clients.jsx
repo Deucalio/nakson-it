@@ -22,7 +22,7 @@ const Clients = () => {
        h-96 w-[30rem] border-2 sm:border-2"
       >
         <Swiper
-          slidesPerView={3}
+          slidesPerView={2}
           centeredSlides={true}
           spaceBetween={30}
           grabCursor={true}
@@ -33,7 +33,7 @@ const Clients = () => {
           className="mySwiper  w-full  lg:w-[75rem] h-full"
         >
           <SwiperSlide class="">
-            <article className="w-60 flex h-full flex-col gap-5 rounded-3xl border-sky-400 bg-[#1E1E1E] px-8 py-4">
+            <article className="-ml-24 -translate-x-2 w-60 flex h-full flex-col gap-5 rounded-3xl border-sky-400 bg-[#1E1E1E] px-8 py-4">
               <img
                 className="h-14 w-14"
                 src="https://img.icons8.com/3d-fluency/94/quote-left.png"
