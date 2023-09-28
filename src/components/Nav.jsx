@@ -1,6 +1,33 @@
 import React from "react";
+import { useRef } from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const Nav = () => {
+  // animate the nav bar on scroll
+  const [nav, setNav] = useState(false);
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    if (nav) {
+      navRef.current.classList.remove("opacity-0");
+      navRef.current.classList.add("max-h-[26rem]");
+
+      setTimeout(() => {
+        navRef.current.classList.remove("max-h-0");
+      }, 200);
+    } else {
+      navRef.current.classList.add("opacity-0");
+      navRef.current.classList.remove("max-h-[26rem]");
+
+      setTimeout(() => {
+        navRef.current.classList.add("max-h-0");
+      }, 200);
+    }
+
+    return () => {};
+  }, [nav]);
+
   return (
     <nav className="flex flex-row">
       <ul className="flex w-full flex-row justify-between">
@@ -9,16 +36,33 @@ const Nav = () => {
           src="https://i.imgur.com/HkYc6sn.png"
           alt=""
         />
-        <li className="relative -left-8 ml-auto flex w-fit cursor-pointer flex-col gap-3 px-12 py-6 pb-8 leading-3 md:hidden">
-          <p className="w-10 border-b-[1px] border-white"></p>
-          <p className="w-10 border-b-[1px] border-white"></p>
-          <p className="w-10 border-b-[1px] border-white"></p>
-
-          <div className="absolute top-2/3 flex hidden h-40 w-24 flex-col gap-4 rounded-xl bg-slate-800 px-3 py-2 text-xs">
+        <li
+          onClick={() => setNav(!nav)}
+          className=" relative left-[1.4rem] ml-auto flex w-fit cursor-pointer 
+          flex-col gap-3 px-12 py-6 pb-8 leading-3 md:hidden"
+        >
+          {/* min-height: 18rem;
+    width: 8rem;
+    left: -3rem; */}
+          <p className="w-8 border-b-[1px] border-white"></p>
+          <p className="w-8 border-b-[1px] border-white"></p>
+          <p className="w-8 border-b-[1px] border-white"></p>
+          <div
+            ref={navRef}
+            className="opacity-0 max-h-0
+            transition-all ease-in duration-300 absolute top-2/3 flex -left-[0.6rem]
+             w-24 flex-col gap-4 rounded-md bg-[#100303] ring-1 ring-slate-500 
+             px-3 py-2 text-xs"
+          >
             <p className="transition-all hover:text-sm">Services</p>
-            <p className="transition-all hover:text-sm">Clients' feedbacks</p>
+            <p className="transition-all hover:text-sm">Our Team</p>
+            <p className="transition-all hover:text-sm">Our Proejcts</p>
             <p className="transition-all hover:text-sm">FAQ</p>
             <p className="transition-all hover:text-sm">Links</p>
+
+            {/* <p className="transition-all hover:text-sm">Links</p>
+            <p className="transition-all hover:text-sm">Links</p>
+            <p className="transition-all hover:text-sm">Links</p> */}
           </div>
         </li>
 
