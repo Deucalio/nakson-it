@@ -159,7 +159,7 @@ const Nav = () => {
               </li>
             </ul>
 
-            <ul className="flex h-72 flex-col bg-[#212529] px-4 py-6 text-sm">
+            <ul className="flex h-72 flex-col bg-black px-4 py-6 text-sm">
               <li>Socials</li>
 
               <p className="-ml-4 mt-2 w-[30rem] border-[1px] border-gray-600"></p>
