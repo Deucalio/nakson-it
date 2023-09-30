@@ -11,14 +11,14 @@ const Nav = () => {
   useEffect(() => {
     if (nav) {
       navRef.current.classList.remove("opacity-0");
-      navRef.current.classList.add("max-h-[26rem]");
+      navRef.current.classList.add("max-h-[300rem]");
 
       setTimeout(() => {
         navRef.current.classList.remove("max-h-0");
       }, 200);
     } else {
       navRef.current.classList.add("opacity-0");
-      navRef.current.classList.remove("max-h-[26rem]");
+      navRef.current.classList.remove("max-h-[300rem]");
 
       setTimeout(() => {
         navRef.current.classList.add("max-h-0");
@@ -54,11 +54,20 @@ const Nav = () => {
              w-24 flex-col gap-4 rounded-md bg-[#0F0E0E] ring-1 ring-slate-500 
              px-3 py-2 text-xs"
           >
-            <p className="transition-all hover:text-sm">Services</p>
-            <p className="transition-all hover:text-sm">Our Team</p>
-            <p className="transition-all hover:text-sm">Our Proejcts</p>
-            <p className="transition-all hover:text-sm">FAQ</p>
-            <p className="transition-all hover:text-sm">Links</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Services</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Our Team</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Our Proejcts</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">FAQ</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Links</p>
+
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Links</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Links</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Links</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Links</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Links</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Links</p>
+            <p onClick={() => console.log("")} className="transition-all hover:text-sm">Links</p>
+
 
             {/* <p className="transition-all hover:text-sm">Links</p>
             <p className="transition-all hover:text-sm">Links</p>
