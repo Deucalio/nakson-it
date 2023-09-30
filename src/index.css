@@ -10,6 +10,7 @@ body {
     "Trebuchet MS", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
+  /* overflow-y: hidden;  */
 }
 
 span {
