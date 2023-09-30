@@ -1,16 +1,12 @@
 #app {
   height: 100%;
 }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
 
 html,
 body {
   position: relative;
   height: 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -33,7 +29,6 @@ body {
   font-size: 22px;
   font-weight: bold;
 }
-
 
 /* 
 .swiper-pagination{
