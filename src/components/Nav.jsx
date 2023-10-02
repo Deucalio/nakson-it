@@ -236,7 +236,7 @@ const Nav = () => {
       <div
         className={`transition-all duration-150 ease-linear overlay  absolute inset-0 z-20 ${
           nav && "backdrop-blur-sm"
-        } `}
+        } md:hidden `}
       ></div>
     </nav>
   );
