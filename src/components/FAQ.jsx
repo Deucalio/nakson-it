@@ -34,10 +34,48 @@ const FAQ = () => {
 
       <main className="hidden h-96 grid-cols-2 md:grid">
         <div className="flex flex-col gap-4 border-sky-400 px-4 py-6">
-          <section className="mx-auto h-14 w-full rounded-lg bg-[#1B1A17] px-3 py-4 text-xs lg:text-base">
-            <button className="flex w-full flex-row justify-between gap-2">
-              <p>What services does Nakson offer?</p>
-              <span>
+          <section className="mx-auto h-14 w-full rounded-lg bg-[#1B1A17] px-3 py-4 text-xs lg:text-base transition-all duration-300 min-h-0">
+            <button
+              onClick={(e) => handleAccordion(e)}
+              className="flex w-full flex-row justify-between gap-2"
+            >
+              <p className="pointer-events-none">
+                What services does Nakson offer?
+              </p>
+              <span className="pointer-events-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="h-5 w-5 rotate-180 transition-all duration-300"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                  />
+                </svg>
+              </span>
+            </button>
+            <p className="lg:text-sm py-2 pr-6 text-zinc-400 transition-all  duration-300 opacity-0 pointer-events-none">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              adipisci fuga eveniet quaerat dolor possimus praesentium repellat!
+              Aspernatur, voluptas? Tempore neque temporibus necessitatibus
+              quam. Blanditiis recusandae ipsa vero tenetur sapiente!
+            </p>
+          </section>
+
+          <section className="mx-auto h-14 w-full rounded-lg bg-[#1B1A17] px-3 py-4 text-xs transition-all duration-300 min-h-0">
+            <button
+              onClick={(e) => handleAccordion(e)}
+              className="flex w-full flex-row justify-between gap-2 lg:text-base"
+            >
+              <p className="pointer-events-none">
+                What services does Nakson offer?
+              </p>
+              <span className="pointer-events-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -54,43 +92,24 @@ const FAQ = () => {
                 </svg>
               </span>
             </button>
-          </section>
-
-          <section className="relative mx-auto h-40 w-full rounded-lg bg-[#1B1A17] px-3 py-4 text-xs md:h-32">
-            <button className="relative z-30 flex w-full flex-row justify-between gap-2 lg:text-base">
-              <p>How can Nakson help me scale business?</p>
-              <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.5 15.75l7.5-7.5 7.5 7.5"
-                  />
-                </svg>
-              </span>
-            </button>
-
-            <p className="py-2 pr-6 text-zinc-400 lg:text-sm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Exercitationem eaque fugiat maiores, excepturi tempora . Lorem
-              ipsum dolor sit amet.
+            <p className="lg:text-sm py-2 pr-6 text-zinc-400 transition-all  duration-300 opacity-0 pointer-events-none">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              adipisci fuga eveniet quaerat dolor possimus praesentium repellat!
+              Aspernatur, voluptas? Tempore neque temporibus necessitatibus
+              quam. Blanditiis recusandae ipsa vero tenetur sapiente!
             </p>
-
-            <div className="absolute inset-0 bg-zinc-500 bg-opacity-10"></div>
           </section>
         </div>
         <div className="flex flex-col gap-4 border-rose-400 px-4 py-6">
-          <section className="mx-auto h-14 w-full rounded-lg bg-[#1B1A17] px-3 py-4 text-xs">
-            <button className="flex w-full flex-row justify-between gap-2 lg:text-base">
-              <p>What services does Nakson offer?</p>
-              <span>
+          <section className="mx-auto h-14 w-full rounded-lg bg-[#1B1A17] px-3 py-4 text-xs transition-all duration-300 min-h-0">
+            <button
+              onClick={(e) => handleAccordion(e)}
+              className="flex w-full flex-row justify-between gap-2 lg:text-base"
+            >
+              <p className="pointer-events-none">
+                What services does Nakson offer?
+              </p>
+              <span className="pointer-events-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -107,19 +126,30 @@ const FAQ = () => {
                 </svg>
               </span>
             </button>
+            <p className="lg:text-sm py-2 pr-6 text-zinc-400 transition-all  duration-300 opacity-0 pointer-events-none">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              adipisci fuga eveniet quaerat dolor possimus praesentium repellat!
+              Aspernatur, voluptas? Tempore neque temporibus necessitatibus
+              quam. Blanditiis recusandae ipsa vero tenetur sapiente!
+            </p>
           </section>
 
-          <section className="relative mx-auto h-40 w-full rounded-lg bg-[#1B1A17] px-3 py-4 text-xs md:h-32">
-            <button className="relative z-30 flex w-full flex-row justify-between gap-2 lg:text-base">
-              <p>Ag lava majboori nu ?</p>
-              <span>
+          <section className="mx-auto h-14 w-full rounded-lg bg-[#1B1A17] px-3 py-4 text-xs transition-all duration-300 min-h-0">
+            <button
+              onClick={(e) => handleAccordion(e)}
+              className="flex w-full flex-row justify-between gap-2 lg:text-base"
+            >
+              <p className="pointer-events-none">
+                What services does Nakson offer?
+              </p>
+              <span className="pointer-events-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="h-5 w-5"
+                  className="h-5 w-5 rotate-180"
                 >
                   <path
                     strokeLinecap="round"
@@ -129,19 +159,17 @@ const FAQ = () => {
                 </svg>
               </span>
             </button>
-
-            <p className="py-2 pr-6 text-zinc-400 lg:text-sm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Exercitationem eaque fugiat maiores, excepturi tempora . Lorem
-              ipsum dolor sit amet.
+            <p className="lg:text-sm py-2 pr-6 text-zinc-400 transition-all  duration-300 opacity-0 pointer-events-none">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              adipisci fuga eveniet quaerat dolor possimus praesentium repellat!
+              Aspernatur, voluptas? Tempore neque temporibus necessitatibus
+              quam. Blanditiis recusandae ipsa vero tenetur sapiente!
             </p>
-
-            <div className="absolute inset-0 bg-zinc-500 bg-opacity-10"></div>
           </section>
         </div>
       </main>
 
-      <section className="relative mx-auto h-14 rounded-lg bg-[#1B1A17] px-3 py-4 text-xs md:hidden transition-all duration-[400ms] min-h-0">
+      <section className="relative mx-auto rounded-lg bg-[#1B1A17] px-3 py-4 text-xs md:hidden transition-all duration-[400ms] min-h-0">
         <button
           onClick={(e) => handleAccordion(e)}
           className="flex w-full flex-row justify-between gap-2"
