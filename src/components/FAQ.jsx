@@ -82,7 +82,7 @@ const FAQ = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="h-5 w-5 rotate-180"
+                  className="h-5 w-5 rotate-180 transition-all duration-300"
                 >
                   <path
                     strokeLinecap="round"
@@ -116,7 +116,7 @@ const FAQ = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="h-5 w-5 rotate-180"
+                  className="h-5 w-5 rotate-180 transition-all duration-300"
                 >
                   <path
                     strokeLinecap="round"
@@ -149,7 +149,7 @@ const FAQ = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="h-5 w-5 rotate-180"
+                  className="h-5 w-5 rotate-180 transition-all duration-300"
                 >
                   <path
                     strokeLinecap="round"
