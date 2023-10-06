@@ -115,7 +115,7 @@ const Nav = () => {
 
           <div
             ref={navRef}
-            className="absolute -left-32 top-[0.3rem] flex h-[98vh] w-60 cursor-auto flex-col justify-between gap-4 bg-black text-xs shadow-lg shadow-indigo-600 
+            className="absolute -left-32 top-[0.3rem] flex h-[98vh] w-60 cursor-auto flex-col justify-between gap-4 bg-black text-xs   
             ring-1 ring-slate-800 transition-all ease-in translate-x-[300px]"
           >
             <ul class="flex flex-col gap-3 px-8 py-24 text-sm">
