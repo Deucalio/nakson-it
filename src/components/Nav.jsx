@@ -116,7 +116,7 @@ const Nav = () => {
           <div
             ref={navRef}
             className="absolute -left-32 top-[0.3rem] flex h-[98vh] w-60 cursor-auto flex-col justify-between gap-4 bg-black text-xs   
-            ring-1 ring-slate-800 transition-all ease-in translate-x-[300px]"
+             transition-all ease-in translate-x-[300px]"
           >
             <ul class="flex flex-col gap-3 px-8 py-24 text-sm">
               <li class="flex flex-row justify-between absolute top-0">
@@ -234,6 +234,7 @@ const Nav = () => {
       {/* overlay */}
 
       <div
+        onClick={() => setNav(!nav)}
         className={`transition-all duration-150 ease-linear overlay  absolute inset-0 z-20 ${
           nav && "backdrop-blur-sm"
         } md:hidden `}
