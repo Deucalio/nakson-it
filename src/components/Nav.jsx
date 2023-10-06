@@ -2,7 +2,6 @@ import React from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import addSwipeEvent from "../basicSwipe";
 
 const Nav = () => {
   // animate the nav bar on scroll
