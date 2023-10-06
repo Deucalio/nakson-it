@@ -167,26 +167,26 @@ const Nav = () => {
                 <li>
                   <img
                     className="h-8 w-8"
-                    src="https://i.imgur.com/9juh06X.png"
+                    src="https://i.imgur.com/c1gDFDf.png"
                     alt=""
                   />
                 </li>
                 <li>
                   <img
                     className="ml-2 mr-1 h-8 w-8"
-                    src="https://i.imgur.com/5JccBsQ.png"
+                    src="https://i.imgur.com/Q86OpaW.png"
                     alt=""
                   />
                 </li>
                 <img
                   className="h-8 w-8"
-                  src="https://i.imgur.com/oYHBY2y.png"
+                  src="https://i.imgur.com/nQLdg6X.png"
                   alt=""
                 />
                 <li></li>
                 <img
                   className="h-8 w-8"
-                  src="https://i.imgur.com/9Iogn28.png"
+                  src="https://i.imgur.com/UzIM92Y.png"
                   alt=""
                 />
                 <li></li>
