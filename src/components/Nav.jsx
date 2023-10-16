@@ -210,7 +210,7 @@ const Nav = () => {
                 </li>
                 <img
                   className="h-8 w-8"
-                  src="https://i.imgur.com/nqsy5jS.png"
+                  src="https://i.imgur.com/u3iciNc.png"
                   alt=""
                 />
                 <li></li>
